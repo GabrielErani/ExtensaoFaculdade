@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panificadora 37</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="botoesCSS.css" />
+    <link rel="stylesheet" href="panificadoraCSS_responsive.css" />
+    <link rel="stylesheet" href="CSSprodutosPageProdutos.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* quero que todas as imagens dos produtos fiquem do mesmo tamanho, todas as divs no caso */
+
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+  </head>
+
+  <body class="h-full flex flex-col">
+    <div class="flex overflow-auto flex-col">
+      <header class="flex justify-center items-center">
+        <img
+          src="logoPanificadora37-transformed.png"
+          alt="Panificadora 37 logo"
+          class="max-h-[100px]"
+        />
+      </header>
+      <nav class="drop-shadow-xl">
+        <div
+          class="flex flex-col sm:flex-row p-2 justify-center items-center gap-2"
+        >
+          <a href="index.html" class="button">
+            <div class="button__line"></div>
+            <div class="button__line"></div>
+            <span class="button__text">Início</span>
+            <div class="button__drow1"></div>
+            <div class="button__drow2"></div>
+          </a>
+          <a href="products.html" class="button">
+            <div class="button__line"></div>
+            <div class="button__line"></div>
+            <span class="button__text">Produtos</span>
+            <div class="button__drow1"></div>
+            <div class="button__drow2"></div>
+          </a>
+          <a href="about-us.html" class="button">
+            <div class="button__line"></div>
+            <div class="button__line"></div>
+            <span class="button__text">Sobre Nós</span>
+            <div class="button__drow1"></div>
+            <div class="button__drow2"></div>
+          </a>
+          <a href="contact.html" class="button">
+            <div class="button__line"></div>
+            <div class="button__line"></div>
+            <span class="button__text">Contato</span>
+            <div class="button__drow1"></div>
+            <div class="button__drow2"></div>
+          </a>
+        </div>
+      </nav>
+
+      <div class="flex-grow p-6">
+        <h1 class="text-7xl font-thin text-[#c4c4c4] leading-none">
+          Nossos produtos
+        </h1>
+        <div class="border-t mt-6 mb-4 border-[#c4c4c4]"></div>
+        <div id="products" class="products"></div>
+      </div>
+      <footer class="relative w-full">
+        <p>&copy; 2023 Panificadora 37. Todos os direitos reservados.</p>
+      </footer>
+    </div>
+  </body>
+  <script>
+    const productsContainer = document.querySelector("#products");
+    const products = [
+      {
+        image: "bagueteComGergilim.jpg",
+        name: "Baguete com Gergelim",
+        description:
+          "Baguete crocante salpicada com sementes de gergelim, ideal para sanduíches.",
+      },
+      {
+        image: "bolos.jpg",
+        name: "Variedade de Bolos",
+        description:
+          "Diversos bolos deliciosos, perfeitos para todas as ocasiões.",
+      },
+      {
+        image: "broaDeFuba.jpg",
+        name: "Broa de Fubá",
+        description: "Bolo tradicional de fubá, doce e macio.",
+      },
+      {
+        image: "chocolateQuente.jpg",
+        name: "Chocolate Quente",
+        description:
+          "Chocolate quente aconchegante e cremoso, ideal para dias frios.",
+      },
+      {
+        image: "coxinha.jpg",
+        name: "Coxinha",
+        description:
+          "Salgado brasileiro recheado com frango desfiado, um clássico da culinária.",
+      },
+      {
+        image: "cremao.jpg",
+        name: "Cremao",
+        description: "Pudim feito de farinha e queijo.",
+      },
+      {
+        image: "croassanPresuntoQueijoEMassaFolhadaQuatroQueijo.jpg",
+        name: "Croissant de Presunto e Queijo e Massa Folhada Quatro Queijos",
+        description:
+          "Croissant recheado com presunto e queijo, e massa folhada de quatro queijos.",
+      },
+      {
+        image: "esfirras.jpg",
+        name: "Esfirras",
+        description: "Esfirras variadas com recheios saborosos e massa macia.",
+      },
+      {
+        image: "mantecauGoiabada.jpg",
+        name: "Mantecal com Goiabada",
+        description:
+          "Biscoito amanteigado com recheio de goiabada, um doce tradicional.",
+      },
+      {
+        image: "manteigaRadio.jpg",
+        name: "Manteiga Rádio",
+        description:
+          "Manteiga de alta qualidade, perfeita para acompanhar pães.",
+      },
+      {
+        image: "melBelaBelha.jpg",
+        name: "Mel Bela Belha",
+        description:
+          "Mel natural e de sabor suave, ideal para adoçar bebidas e alimentos.",
+      },
+      {
+        image: "mortadelaCeratti.jpg",
+        name: "Mortadela Ceratti",
+        description:
+          "Fatiados de mortadela Ceratti, ótimos para lanches e petiscos.",
+      },
+      {
+        image: "paoComDoisOvoPeitoPeruQueijoMeiaCuraTomateOregano.jpg",
+        name: "Pão Daquele",
+        description:
+          "Pão recheado com ovos, peito de peru, queijo meia cura, tomate e orégano.",
+      },
+      {
+        image: "paoDeHot.jpg",
+        name: "Pão de Hot Dog",
+        description:
+          "Pão macio e fresco, ideal para preparar hot dogs deliciosos.",
+      },
+      {
+        image: "paoDeQueijo.jpg",
+        name: "Pão de Queijo",
+        description: "Pão de queijo mineiro, quentinho e cheio de sabor.",
+      },
+      {
+        image: "paoFrances.jpg",
+        name: "Pão Francês",
+        description: "Pão francês crocante, perfeito para o café da manhã.",
+      },
+      {
+        image: "paoMandi.jpg",
+        name: "Pão Mandi",
+        description: "Pão artesanal com textura e sabor únicos.",
+      },
+      {
+        image: "paoSirio.jpg",
+        name: "Pão Sírio",
+        description:
+          "Pão sírio leve e versátil, ideal para wraps e sanduíches.",
+      },
+      {
+        image: "queijoFrescoInteiro.jpg",
+        name: "Queijo Fresco Inteiro",
+        description: "Queijo fresco inteiro, suave e saboroso.",
+      },
+    ];
+
+    products.forEach((product) => {
+      const productElement = document.createElement("div");
+      productElement.classList.add("product");
+      productElement.innerHTML = `
+            <img src="products/${product.image}" alt="${product.name} " id='imgBorda' width="237.6px" heigth="237.6px">
+            <h1>${product.name}</h1>
+            <p>${product.description}</p>
+        `;
+      productsContainer.appendChild(productElement);
+    });
+  </script>
+</html>
