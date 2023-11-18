@@ -1,0 +1,21 @@
+[
+    {"image":"bagueteComGergilim.jpg", "name":"Baguete com Gergelim", "description":"Baguete crocante salpicada com sementes de gergelim, ideal para sanduíches."},
+    {"image":"bolos.jpg", "name":"Variedade de Bolos", "description":"Diversos bolos deliciosos, perfeitos para todas as ocasiões."},
+    {"image":"broaDeFuba.jpg", "name":"Broa de Fubá", "description":"Bolo tradicional de fubá, doce e macio."},
+    {"image":"chocolateQuente.jpg", "name":"Chocolate Quente", "description":"Chocolate quente aconchegante e cremoso, ideal para dias frios."},
+    {"image":"coxinha.jpg", "name":"Coxinha", "description":"Salgado brasileiro recheado com frango desfiado, um clássico da culinária."},
+    {"image":"cremao.jpg", "name":"Cremao", "description":"Pudim feito de farinha e queijo."},
+    {"image":"croassanPresuntoQueijoEMassaFolhadaQuatroQueijo.jpg", "name":"Croissant de Presunto e Queijo e Massa Folhada Quatro Queijos", "description":"Croissant recheado com presunto e queijo, e massa folhada de quatro queijos."},
+    {"image":"esfirras.jpg", "name":"Esfirras", "description":"Esfirras variadas com recheios saborosos e massa macia."},
+    {"image":"mantecauGoiabada.jpg", "name":"Mantecal com Goiabada", "description":"Biscoito amanteigado com recheio de goiabada, um doce tradicional."},
+    {"image":"manteigaRadio.jpg", "name":"Manteiga Rádio", "description":"Manteiga de alta qualidade, perfeita para acompanhar pães."},
+    {"image":"melBelaBelha.jpg", "name":"Mel Bela Belha", "description":"Mel natural e de sabor suave, ideal para adoçar bebidas e alimentos."},
+    {"image":"mortadelaCeratti.jpg", "name":"Mortadela Ceratti", "description":"Fatiados de mortadela Ceratti, ótimos para lanches e petiscos."},
+    {"image":"paoComDoisOvoPeitoPeruQueijoMeiaCuraTomateOregano.jpg", "name":"Pão com Dois Ovos, Peito de Peru, Queijo Meia Cura, Tomate e Orégano", "description":"Pão recheado com ovos, peito de peru, queijo meia cura, tomate e orégano."},
+    {"image":"paoDeHot.jpg", "name":"Pão de Hot Dog", "description":"Pão macio e fresco, ideal para preparar hot dogs deliciosos."},
+    {"image":"paoDeQueijo.jpg", "name":"Pão de Queijo", "description":"Pão de queijo mineiro, quentinho e cheio de sabor."},
+    {"image":"paoFrances.jpg", "name":"Pão Francês", "description":"Pão francês crocante, perfeito para o café da manhã."},
+    {"image":"paoMandi.jpg", "name":"Pão Mandi", "description":"Pão artesanal com textura e sabor únicos."},
+    {"image":"paoSirio.jpg", "name":"Pão Sírio", "description":"Pão sírio leve e versátil, ideal para wraps e sanduíches."},
+    {"image":"queijoFrescoInteiro.jpg", "name":"Queijo Fresco Inteiro", "description":"Queijo fresco inteiro, suave e saboroso."}
+]

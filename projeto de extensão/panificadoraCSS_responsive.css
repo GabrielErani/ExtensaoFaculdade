@@ -1,0 +1,186 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #7a452e;
+}
+
+header {
+  background-color: #aa6b54;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav {
+  background-color: #aa6b54;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+footer {
+  background-color: #aa6b54;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* 本体には関係ないスタイル */
+.container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hover-1 {
+  --c: #1095c1; /* the color */
+  --s: 0.15em;
+
+  line-height: 1.1em;
+  padding-bottom: calc(2.1 * var(--s));
+  background: conic-gradient(from 135deg at top, var(--c) 90deg, #0000 0) left 0
+      bottom var(--s) / calc(2 * var(--s)) var(--s) repeat-x,
+    conic-gradient(from -45deg at bottom, var(--c) 90deg, #0000 0) left var(--s)
+      bottom 0 / calc(2 * var(--s)) var(--s) repeat-x;
+  -webkit-mask: linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0 / var(--_p, 0%) padding-box no-repeat;
+  transition: 0.5s;
+}
+.hover-1:hover {
+  --_p: 100%;
+  color: var(--c);
+}
+
+.hover-2 {
+  --c: #1095c1; /* the color */
+  --b: 0.1em; /* border length*/
+  --d: 20px; /* the cube depth */
+
+  --_s: calc(var(--d) + var(--b));
+
+  color: var(--c);
+  border: solid #0000;
+  border-width: var(--b) var(--b) var(--_s) var(--_s);
+  background: conic-gradient(
+        at left var(--d) bottom var(--d),
+        #0000 90deg,
+        rgb(255 255 255 /0.3) 0 225deg,
+        rgb(255 255 255 /0.6) 0
+      )
+      border-box,
+    conic-gradient(at left var(--_s) bottom var(--_s), #0000 90deg, var(--c) 0)
+      0 100% / calc(100% - var(--b)) calc(100% - var(--b)) border-box;
+  transform: translate(calc(var(--d) / -1), var(--d));
+  clip-path: polygon(
+    var(--d) 0%,
+    var(--d) 0%,
+    100% 0%,
+    100% calc(100% - var(--d)),
+    100% calc(100% - var(--d)),
+    var(--d) calc(100% - var(--d))
+  );
+  transition: 0.5s;
+}
+.hover-2:hover {
+  transform: translate(0, 0);
+  clip-path: polygon(
+    0% var(--d),
+    var(--d) 0%,
+    100% 0%,
+    100% calc(100% - var(--d)),
+    calc(100% - var(--d)) 100%,
+    0% 100%
+  );
+}
+.hover-3 {
+  --b: 0.1em; /* the thickness of the line */
+  --c: #aa6b54; /* the color */
+
+  color: #fff;
+  padding-block: var(--b);
+  background: linear-gradient(var(--c) 50%, #000 0) 0%
+      calc(100% - var(--_p, 0%)) / 100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p, 0%) / var(--_p, 0%) var(--b)
+      no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.3s var(--_s, 0s) linear,
+    background-size 0.3s calc(0.3s - var(--_s, 0s));
+}
+.hover-3:hover {
+  --_p: 100%;
+  --_s: 0.3s;
+  color: var(--c);
+}
+.hover-4 {
+  border: 8px solid;
+  border-image: repeating-linear-gradient(
+      135deg,
+      #f8ca00 0 10px,
+      #e97f02 0 20px,
+      #bd1550 0 30px
+    )
+    8;
+  -webkit-mask: conic-gradient(
+        from 180deg at top 8px right 8px,
+        #0000 90deg,
+        #000 0
+      )
+      var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
+    conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0
+      var(--_i, 200%) / var(--_i, 8px) 200% border-box no-repeat,
+    linear-gradient(#000 0 0) padding-box no-repeat;
+  transition: 0.3s, -webkit-mask-position 0.3s 0.3s;
+}
+.hover-4:hover {
+  --_i: 100%;
+  color: #cc333f;
+  transition: 0.3s, -webkit-mask-size 0.3s 0.3s;
+}
+
+h3 {
+  font-family: system-ui, sans-serif;
+  font-size: 4rem;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 0 0.1em;
+}
+/* Additional CSS */
+
+:root {
+  --duration: 10s;
+  --size: 80vw;
+  --characters: 14;
+  --font-size: 22px;
+  --delay-character: 0.2s;
+  --text-color-hover: #ff8489;
+}
+#imgBorda {
+  --s: 10px; /* control the size */
+  padding: var(--s);
+  border: calc(2 * var(--s)) solid #0000;
+  outline: 1px solid #000;
+  outline-offset: calc(-1 * var(--s));
+  background: conic-gradient(from 90deg at 1px 1px, #0000 25%, #000 0);
+}
