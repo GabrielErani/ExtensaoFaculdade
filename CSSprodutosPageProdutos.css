@@ -18,3 +18,9 @@ div.product {
 div.product h1 {
   font-size: 20px;
 }
+
+@media screen and (max-width: 600px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
