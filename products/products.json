@@ -1,4 +1,3 @@
-
 [
     {"image":"paoFrances.jpg", "name":"Pão Francês", "description":"Pão francês crocante, perfeito para o café da manhã."},
     {"image":"bagueteComGergilim.jpg", "name":"Baguete com Gergelim", "description":"Baguete crocante salpicada com sementes de gergelim, ideal para sanduíches."},
@@ -6,23 +5,26 @@
     {"image":"paoMandi.jpg", "name":"Pão Mandi", "description":"Pão artesanal com textura e sabor únicos."},
     {"image":"paoSirio.jpg", "name":"Pão Sírio", "description":"Pão sírio leve e versátil, ideal para wraps e sanduíches."},
     {"image":"paoDeQueijo.jpg", "name":"Pão de Queijo", "description":"Pão de queijo mineiro, quentinho e cheio de sabor."},
-    {"image":"queijoFrescoInteiro.jpg", "name":"Queijo Fresco Inteiro", "description":"Queijo fresco inteiro, suave e saboroso."},
-    {"image":"CoalhadaSeca.png", "name":"Coalhada Seca", "description":"Coalhada seca, um tipo de queijo cremoso e ácido."},
+    {"image":"PaoFrances.png", "name":"Pão Francês", "description":"Pão francês crocante, perfeito para o café da manhã."},
+    {"image":"paoComDoisOvoPeitoPeruQueijoMeiaCuraTomateOregano.jpg", "name":"Pão com Dois Ovos, Peito de Peru, Queijo Meia Cura, Tomate e Orégano", "description":"Pão recheado com ovos, peito de peru, queijo meia cura, tomate e orégano."},
+    {"image":"QueijoQuentePaoFrances.png", "name":"Queijo Quente no Pão Francês", "description":"Sanduíche de queijo quente feito com pão francês, crocante e delicioso."},
     {"image":"bolos.jpg", "name":"Variedade de Bolos", "description":"Diversos bolos deliciosos, perfeitos para todas as ocasiões."},
     {"image":"broaDeFuba.jpg", "name":"Broa de Fubá", "description":"Bolo tradicional de fubá, doce e macio."},
-    {"image":"mantecauGoiabada.jpg", "name":"Mantecal com Goiabada", "description":"Biscoito amanteigado com recheio de goiabada, um doce tradicional."},
-    {"image":"melBelaBelha.jpg", "name":"Mel Bela Belha", "description":"Mel natural e de sabor suave, ideal para adoçar bebidas e alimentos."},
-    {"image":"roscaRecheadaDeCreme.jpg", "name":"Rosca Recheada de Creme", "description":"Rosca doce recheada com creme, polvilhada com coco."},
-    {"image":"GoiabadaCascaoMarca_VIlaCaipira.png", "name":"Goiabada Cascão Vila Caipira", "description":"Goiabada cascão tradicional, doce e com pedaços de fruta."},
-    {"image":"chocolateQuente.jpg", "name":"Chocolate Quente", "description":"Chocolate quente aconchegante e cremoso, ideal para dias frios."},
+    {"image":"PudimLeiteCondensado.png", "name":"Pudim de Leite Condensado", "description":"Pudim suave e cremoso de leite condensado, uma sobremesa clássica."},
+    {"image":"SonhoRecheadoComCreme.png", "name":"Sonho Recheado com Creme", "description":"Sonho macio e recheado com creme doce, perfeito para um lanche especial."},
+    {"image":"PaoFrancesComNutellaNaChapa.png", "name":"Pão Francês com Nutella na Chapa", "description":"Pão francês quentinho com Nutella derretida, uma combinação irresistível."},
     {"image":"coxinha.jpg", "name":"Coxinha", "description":"Salgado brasileiro recheado com frango desfiado, um clássico da culinária."},
     {"image":"esfirras.jpg", "name":"Esfirras", "description":"Esfirras variadas com recheios saborosos e massa macia."},
-    {"image":"cremao.jpg", "name":"Cremao", "description":"Pudim feito de farinha e queijo."},
     {"image":"croassanPresuntoQueijoEMassaFolhadaQuatroQueijo.jpg", "name":"Croissant de Presunto e Queijo e Massa Folhada Quatro Queijos", "description":"Croissant recheado com presunto e queijo, e massa folhada de quatro queijos."},
-    {"image":"paoComDoisOvoPeitoPeruQueijoMeiaCuraTomateOregano.jpg", "name":"Pão com Dois Ovos, Peito de Peru, Queijo Meia Cura, Tomate e Orégano", "description":"Pão recheado com ovos, peito de peru, queijo meia cura, tomate e orégano."},
+    {"image":"queijoFrescoInteiro.jpg", "name":"Queijo Fresco Inteiro", "description":"Queijo fresco inteiro, suave e saboroso."},
+    {"image":"CoalhadaSeca.png", "name":"Coalhada Seca", "description":"Coalhada seca, um tipo de queijo cremoso e ácido."},
+    {"image":"mantecauGoiabada.jpg", "name":"Mantecal com Goiabada", "description":"Biscoito amanteigado com recheio de goiabada, um doce tradicional."},
+    {"image":"melBelaBelha.jpg", "name":"Mel Bela Belha", "description":"Mel natural e de sabor suave, ideal para adoçar bebidas e alimentos."},
+    {"image":"GoiabadaCascaoMarca_VIlaCaipira.png", "name":"Goiabada Cascão Vila Caipira", "description":"Goiabada cascão tradicional, doce e com pedaços de fruta."},
+    {"image":"chocolateQuente.jpg", "name":"Chocolate Quente", "description":"Chocolate quente aconchegante e cremoso, ideal para dias frios."},
+    {"image":"cremao.jpg", "name":"Cremao", "description":"Pudim feito de farinha e queijo."},
+    {"image":"BiscoitoPolvilho.png", "name":"Biscoito de Polvilho", "description":"Biscoito de polvilho crocante, um lanche leve e delicioso."},
     {"image":"BanhaSuinaMarca_VilaCaipira.png", "name":"Banha Suína Vila Caipira", "description":"Banha de porco, utilizada para cozinhar e adicionar sabor às receitas."},
     {"image":"manteigaRadio.jpg", "name":"Manteiga Rádio", "description":"Manteiga de alta qualidade, perfeita para acompanhar pães."},
-    {"image":"mortadelaCeratti.jpg", "name":"Mortadela Ceratti", "description":"Fatiados de mortadela Ceratti, ótimos para lanches e petiscos."},
-    {"image":"BiscoitoPolvilho.png", "name":"Biscoito de Polvilho", "description":"Biscoito de polvilho crocante, um lanche leve e delicioso."}
+    {"image":"mortadelaCeratti.jpg", "name":"Mortadela Ceratti", "description":"Fatiados de mortadela Ceratti, ótimos para lanches e petiscos."}
 ]
-
