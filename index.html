@@ -1,178 +1,169 @@
 <!DOCTYPE html>
 <html lang="pt-BR" class="h-full">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Panificadora 37</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="botoesCSS.css" />
-    <link rel="stylesheet" href="panificadoraCSS_responsive.css" />
-    <link rel="stylesheet" href="CSSprodutosPageProdutos.css" />
-    <script
-    src="https://kit.fontawesome.com/ffbef28e7a.js"
-    crossorigin="anonymous"
-  ></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-    </style>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panificadora 37</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-  <body class="h-full flex flex-col">
-    <div class="flex overflow-auto flex-col h-full">
-      <header class="flex justify-center items-center">
-        <img
-          src="logoPanificadora37-transformed.png"
-          alt="Panificadora 37 logo"
-          class="max-h-[100px]"
-        />
-      </header>
-      <nav class="drop-shadow-xl">
-        <div
-          class="flex flex-col sm:flex-row p-2 justify-center items-center gap-2"
-        >
-          <a href="index.html" class="button">
-            <div class="button__line"></div>
-            <div class="button__line"></div>
-            <span class="button__text">Início</span>
-            <div class="button__drow1"></div>
-            <div class="button__drow2"></div>
-          </a>
-          <a href="products.html" class="button">
-            <div class="button__line"></div>
-            <div class="button__line"></div>
-            <span class="button__text">Produtos</span>
-            <div class="button__drow1"></div>
-            <div class="button__drow2"></div>
-          </a>
-          <a href="about-us.html" class="button">
-            <div class="button__line"></div>
-            <div class="button__line"></div>
-            <span class="button__text">Sobre Nós</span>
-            <div class="button__drow1"></div>
-            <div class="button__drow2"></div>
-          </a>
-          <a href="contact.html" class="button">
-            <div class="button__line"></div>
-            <div class="button__line"></div>
-            <span class="button__text">Contato</span>
-            <div class="button__drow1"></div>
-            <div class="button__drow2"></div>
-          </a>
+  <link rel="stylesheet" href="botoesCSS.css" />
+  <link rel="stylesheet" href="panificadoraCSS_responsive.css" />
+  <link rel="stylesheet" href="CSSprodutosPageProdutos.css" />
+  <script src="https://kit.fontawesome.com/ffbef28e7a.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+    /* Garante que o body ocupe pelo menos toda a tela */
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    /* O conteúdo principal cresce para ocupar o espaço entre o header e o footer */
+    .main-content {
+      flex-grow: 1;
+    }
+
+    /* O footer deve estar no fluxo normal da página */
+    footer {
+      background-color: #aa6b54;
+      color: #703f2d;
+      padding: 1rem;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-content">
+    <header class="flex justify-center items-center">
+      <img src="logoPanificadora37-transformed.png" alt="Panificadora 37 logo" class="max-h-[100px]" />
+    </header>
+    <nav class="drop-shadow-xl">
+      <div class="flex flex-col sm:flex-row p-2 justify-center items-center gap-2">
+        <a href="index.html" class="button">
+          <div class="button__line"></div>
+          <div class="button__line"></div>
+          <span class="button__text">Início</span>
+          <div class="button__drow1"></div>
+          <div class="button__drow2"></div>
+        </a>
+        <a href="products.html" class="button">
+          <div class="button__line"></div>
+          <div class="button__line"></div>
+          <span class="button__text">Produtos</span>
+          <div class="button__drow1"></div>
+          <div class="button__drow2"></div>
+        </a>
+        <a href="about-us.html" class="button">
+          <div class="button__line"></div>
+          <div class="button__line"></div>
+          <span class="button__text">Sobre Nós</span>
+          <div class="button__drow1"></div>
+          <div class="button__drow2"></div>
+        </a>
+        <a href="contact.html" class="button">
+          <div class="button__line"></div>
+          <div class="button__line"></div>
+          <span class="button__text">Contato</span>
+          <div class="button__drow1"></div>
+          <div class="button__drow2"></div>
+        </a>
+      </div>
+    </nav>
+
+    <div class="h-full p-6">
+      <h1 class="text-4xl sm:text-7xl sm:font-thin font-extrabold text-[#c4c4c4] leading-none">
+        Estamos a procura de novos talentos!
+      </h1>
+      <div class="border-t mt-6 mb-4 border-[#c4c4c4]"></div>
+      <span class="text-xl font-normal text-[#a7a7a7]">
+        A Panificadora 37 está sempre em busca de novos talentos para fazer
+        parte da nossa equipe. Se você é apaixonado por pães, bolos, atendimento e quer
+        fazer parte da nossa história, clique no botão abaixo para saber mais!
+      </span>
+      <a href="https://forms.gle/exoi1iqGSL1pQxM59"
+        class="sm:flex sm:mt-6 sm:mb-10 sm:justify-end flex justify-center my-10">
+        <button class="botaoIndex">Trabalhe Conosco</button>
+      </a>
+      <h1 class="text-4x1 sm:text-7xl mt-4 text-[#c4c4c4] sm:font-thin font-extrabold leading-none">
+        Alguns de nossos produtos
+      </h1>
+      <div class="border-t mt-6 mb-4 border-[#c4c4c4]"></div>
+      <div id="products" class="products">
+        <div class="product">
+          <img src="products/bagueteComGergilim.jpg" alt="Baguete com Gergelim " id="imgBorda" width="237.6px"
+            heigth="237.6px" />
+          <h1 class="text-white font-bold">Baguete com Gergelim</h1>
+          <p class="text-white font-normal">
+            Baguete crocante salpicada com sementes de gergelim, ideal para
+            sanduíches.
+          </p>
         </div>
-      </nav>
-
-      <div class="h-full p-6">
-        <h1 class="text-4xl sm:text-7xl sm:font-thin font-extrabold text-[#c4c4c4] leading-none">
-          Estamos a procura de novos talentos!
-        </h1>
-        <div class="border-t mt-6 mb-4 border-[#c4c4c4]"></div>
-        <span class="text-xl font-normal text-[#a7a7a7]">
-          A Panificadora 37 está sempre em busca de novos talentos para fazer
-          parte da nossa equipe. Se você é apaixonado por pães, bolos, atendimento e quer
-          fazer parte da nossa história, clique no botão abaixo para saber mais!
-        </span>
-        <a href="https://forms.gle/exoi1iqGSL1pQxM59" class="sm:flex sm:mt-6 sm:mb-10 sm:justify-end flex justify-center my-10"><button class="botaoIndex">Trabalhe Conosco</button></a>
-        <h1 class="text-4x1 sm:text-7xl mt-4 text-[#c4c4c4] sm:font-thin font-extrabold leading-none">
-          Alguns de nossos produtos
-        </h1>
-        <div class="border-t mt-6 mb-4 border-[#c4c4c4]"></div>
-        <div id="products" class="products">
-          <div class="product">
-            <img
-              src="products/bagueteComGergilim.jpg"
-              alt="Baguete com Gergelim "
-              id="imgBorda"
-              width="237.6px"
-              heigth="237.6px"
-            />
-            <h1 class="text-white font-bold">Baguete com Gergelim</h1>
-            <p class="text-white font-normal">
-              Baguete crocante salpicada com sementes de gergelim, ideal para
-              sanduíches.
-            </p>
-          </div>
-          <div class="product">
-            <img
-              src="products/bolos.jpg"
-              alt="Variedade de Bolos "
-              id="imgBorda"
-              width="237.6px"
-              heigth="237.6px"
-            />
-            <h1 class="text-white font-bold">Variedade de Bolos</h1>
-            <p class="text-white font-normal">
-              Diversos bolos deliciosos, perfeitos para todas as ocasiões.
-            </p>
-          </div>
-          <div class="product">
-            <img
-              src="products/broaDeFuba.jpg"
-              alt="Broa de Fubá "
-              id="imgBorda"
-              width="237.6px"
-              heigth="237.6px"
-            />
-            <h1 class="text-white font-bold">Broa de Fubá</h1>
-            <p class="text-white font-normal">
-              Bolo tradicional de fubá, doce e macio.
-            </p>
-          </div>
-          <div class="product">
-            <img
-              src="products/chocolateQuente.jpg"
-              alt="Chocolate Quente "
-              id="imgBorda"
-              width="237.6px"
-              heigth="237.6px"
-            />
-            <h1 class="text-white font-bold">Chocolate Quente</h1>
-            <p class="text-white font-normal">
-              Chocolate quente aconchegante e cremoso, ideal para dias frios.
-            </p>
-          </div>
+        <div class="product">
+          <img src="products/bolos.jpg" alt="Variedade de Bolos " id="imgBorda" width="237.6px" heigth="237.6px" />
+          <h1 class="text-white font-bold">Variedade de Bolos</h1>
+          <p class="text-white font-normal">
+            Diversos bolos deliciosos, perfeitos para todas as ocasiões.
+          </p>
         </div>
-        <div class="sm:w-full sm:mt-2 sm:flex sm:justify-end flex justify-center">
-          <a
-            class=" my-10"
-            href="products.html"
-          ><button class="botaoIndex">Clique aqui para ver mais produtos</button></a>
+        <div class="product">
+          <img src="products/broaDeFuba.jpg" alt="Broa de Fubá " id="imgBorda" width="237.6px" heigth="237.6px" />
+          <h1 class="text-white font-bold">Broa de Fubá</h1>
+          <p class="text-white font-normal">
+            Bolo tradicional de fubá, doce e macio.
+          </p>
         </div>
-        <h1 class="text-4xl sm:text-7xl mt-4 text-[#c4c4c4] leading-none sm:font-thin font-extrabold">
-          Um pouco da nossa história
-        </h1>
-        <div class="border-t mt-6 mb-4 border-[#c4c4c4]"></div>
-
-        <span class="text-xl font-normal text-[#a7a7a7]">
-          Bem-vindo à nossa querida Panificadora 37, um cantinho especial em
-          Barretos que celebra mais de 22 anos de tradição e afeto.<br /><br />
-
-          Tudo começou com o dedicado padeiro Silvio José Cirilo, cujas mãos
-          habilidosas moldam até hoje a maior parte das delícias que você
-          encontra aqui. Seja o pão francês crocante, a rosca doce que derrete
-          na boca, ou os irresistíveis bolos de laranja, iogurte e fubá, cada
-          receita carrega um pedaço da nossa história.
-        </span>
-        <div class="sm:w-full sm:mt-2 sm:flex sm:justify-end flex justify-center">
-          <a
-            class="my-10"
-            href="about-us.html"
-          >
-              <button class="botaoIndex">Saiba mais sobre nós</button>
-          </a>
+        <div class="product">
+          <img src="products/chocolateQuente.jpg" alt="Chocolate Quente " id="imgBorda" width="237.6px"
+            heigth="237.6px" />
+          <h1 class="text-white font-bold">Chocolate Quente</h1>
+          <p class="text-white font-normal">
+            Chocolate quente aconchegante e cremoso, ideal para dias frios.
+          </p>
         </div>
       </div>
+      <div class="sm:w-full sm:mt-2 sm:flex sm:justify-end flex justify-center">
+        <a class=" my-10" href="products.html">
+          <button class="botaoIndex">Clique aqui para ver mais produtos</button>
+        </a>
+      </div>
+      <h1 class="text-4xl sm:text-7xl mt-4 text-[#c4c4c4] leading-none sm:font-thin font-extrabold">
+        Um pouco da nossa história
+      </h1>
+      <div class="border-t mt-6 mb-4 border-[#c4c4c4]"></div>
+
+      <span class="text-xl font-normal text-[#a7a7a7]">
+        Bem-vindo à nossa querida Panificadora 37, um cantinho especial em
+        Barretos que celebra mais de 22 anos de tradição e afeto.<br /><br />
+
+        Tudo começou com o dedicado padeiro Silvio José Cirilo, cujas mãos
+        habilidosas moldam até hoje a maior parte das delícias que você
+        encontra aqui. Seja o pão francês crocante, a rosca doce que derrete
+        na boca, ou os irresistíveis bolos de laranja, iogurte e fubá, cada
+        receita carrega um pedaço da nossa história.
+      </span>
+      <div class="sm:w-full sm:mt-2 sm:flex sm:justify-end flex justify-center">
+        <a class="my-10" href="about-us.html">
+          <button class="botaoIndex">Saiba mais sobre nós</button>
+        </a>
+      </div>
     </div>
-    
-    <footer class="bg-[#aa6b54] text-[#703f2d] py-5 px-3 flex justify-between">
-      <p class="">&copy; 2023 Panificadora 37.</p>
-      <p>
-        Desenvolvido por:
-        <a class="mx-2" href="devs.html"
-          ><i class="fa-fade fa-solid fa-code fa-lg"></i
-        ></a>
-      </p>
-    </footer>
-  </body>
+  </div>
+
+  <footer class="flex justify-between">
+    <p>&copy; 2023 Panificadora 37.</p>
+    <p>
+      Desenvolvido por:
+      <a class="mx-2" href="devs.html">
+        <i class="fa-fade fa-solid fa-code fa-lg"></i>
+      </a>
+    </p>
+  </footer>
+</body>
+
 </html>
